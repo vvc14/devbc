@@ -6,7 +6,6 @@ import AddTaskDialog from './components/AddTaskDialog';
 import LoadingSpinner from './components/LoadingSpinner';
 import { taskService } from './services/taskService';
 
-
 function App() {
   const [tasks, setTasks] = useState([]);
   const [loading, setLoading] = useState(true);
