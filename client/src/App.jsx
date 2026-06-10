@@ -6,8 +6,7 @@ import AddTaskDialog from './components/AddTaskDialog';
 import LoadingSpinner from './components/LoadingSpinner';
 import { taskService } from './services/taskService';
 
-let name = "vyaswanth";
-let db = "mongo2";
+
 function App() {
   const [tasks, setTasks] = useState([]);
   const [loading, setLoading] = useState(true);
